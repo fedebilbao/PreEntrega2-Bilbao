@@ -1,0 +1,227 @@
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #e2f0fb;
+}
+/* HEADER */
+#logo {
+    width: 200px;
+}
+
+#perfiles{
+    display: block;
+    position: absolute;
+    right: 50px;
+    top: 60px;
+}
+#perfil{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    width: 100px;
+}
+/* FIN DE HEADER */
+
+/* INDEX */
+#pasoapaso{
+    border-style: solid;
+    border-color: black;
+}
+
+#pasoapaso a img{
+    width: auto;
+    height: auto;
+}
+
+#imagenplan{
+    display: inline;
+}
+
+#comentarios{
+    display: inline;
+}
+
+#comentarios img{
+    width: 50px;
+    margin: 0px 20px;
+}
+
+#comentarios h3{
+    width: 600px;
+    background-color: #5271ff;
+    position: relative;
+    bottom: 520px;
+    left: 1000px;
+}
+
+#imagenplan img{
+    width: 600px;
+    margin: 100px;
+}
+
+/* FIN INDEX */
+
+/* LISTAS */
+ul {
+    list-style-type: none;
+    display: flex;
+    background-color: #5271ff;
+    justify-content: center;
+    gap: 40px;
+}
+
+ul a{
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    padding: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+}
+
+ul#filtro{
+    width: 300px;
+    height: 700px;
+    padding: 0;
+    margin-left: 100px;
+}
+
+ul#filtro li{
+    border-style: solid;
+    border-color: black;
+    padding: 10px;
+    right: 400px
+}
+/* FIN DE LISTAS */
+
+
+#filtro{
+    display: block;
+}
+
+/* FORMULARIO */
+
+label{
+    padding: 10px;
+    position: relative;
+    top: 30px;
+}
+form{
+    background-color: grey;
+    width: 500px;
+    height: 500px;
+    border-style: solid;
+    border-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+    padding: 20px;
+    margin: 100px auto;
+}
+
+input{
+    display: block;
+    margin: 10px;
+    margin-left: 250px;
+}
+
+input#comprador{
+    position: relative;
+    top: 25px;
+}
+
+input#vendedor{
+    position: relative;
+    top: 25px;
+}
+
+textarea{
+    margin-left: 250px;
+}
+
+#BotonEnviar{
+    width: 100px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 400px;
+}
+
+#BotonAlta{
+    margin-left: 400px;
+}
+
+/* TERMINA FORMULARIO */
+
+h1{
+    display: block;
+    padding: 20px;
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.video{
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+
+.video iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.calendario{
+    margin-left: 60%;
+    position: relative;
+    bottom: 500px;
+}
+
+/* FOOTER */
+
+footer h5.redes{
+    display: inline;
+    position: relative;
+    left: 500px;
+    bottom: 100px;
+}
+
+footer img{
+    width: 60px;
+    height: 60px;
+}
+
+footer{
+    font-size: x-large;
+}
+
+/* FIN FOOTER */
+
+main.perfil img{
+    width: 100px;
+    position: relative;
+    left: 150px;
+}
+main.perfil h1{
+    display: block;
+    background-color: #e2f0fb;
+    padding: 20px;
+}
+
+main.perfil h2{
+    margin: 50px;
+}
+
+main.perfil{
+    background-color: grey;
+}
+
+main.perfil input{
+    width: 200px;
+    font-size: xx-large;
+    position: relative;
+    right: 150px;
+}
